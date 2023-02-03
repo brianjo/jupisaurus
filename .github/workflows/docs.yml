@@ -32,7 +32,6 @@ jobs:
         cd ..
     - name: Build the Website
       run: |
-        cd website
         yarn
         npm run build    
     - name: Deploy
