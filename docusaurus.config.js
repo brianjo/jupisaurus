@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'Jupisaurus',
+  tagline: 'Publishing Jupyter notebooks in Docuasurus',
+  favicon: 'img/favicon.png',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-test-site.com',
@@ -64,21 +64,21 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Jupisaurus',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/jupisaurus.png',
         },
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'Introduction',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Tutorials',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/brianjo/jupisaurus',
             label: 'GitHub',
             position: 'right',
           },
@@ -91,8 +91,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Tutorials',
+                to: '/docs/Introduction',
               },
             ],
           },
