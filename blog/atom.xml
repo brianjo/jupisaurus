@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://your-docusaurus-test-site.com/jupisaurus/blog</id>
-    <title>My Site Blog</title>
+    <title>Jupisaurus Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://your-docusaurus-test-site.com/jupisaurus/blog"/>
-    <subtitle>My Site Blog</subtitle>
-    <icon>https://your-docusaurus-test-site.com/jupisaurus/img/favicon.ico</icon>
+    <subtitle>Jupisaurus Blog</subtitle>
+    <icon>https://your-docusaurus-test-site.com/jupisaurus/img/favicon.png</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>https://your-docusaurus-test-site.com/jupisaurus/blog/welcome</id>
